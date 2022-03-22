@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#banner {
+	/* background-color: #0c10b0; */
+	background-color: #1f2833;
+}
+
+#text-color {
+	color: #66fcf1;
+}
+
+#color-c5c6c7 {
+	color: #c5c6c7;
+}
+
+.bg-custom {
+	background-color: #0b0c10;
+}
+
+.fit {
+	display: inline-block;
+	width: 99vw;
+}
+
+.height {
+	height: 93vh;
+}
