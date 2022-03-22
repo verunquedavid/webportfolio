@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 #banner {
@@ -16,16 +17,25 @@
 	color: #c5c6c7;
 }
 
+.blue-color,
+h2 {
+	color: #45a29e;
+}
+
 .bg-custom {
 	background-color: #0b0c10;
 }
 
+.bg-custom-secondary {
+	background-color: #c5c6c7;
+}
+
 #fit {
-	width: 100vw%;
+	max-width: 100vw;
 }
 
 .height {
-	height: 90vh;
+	height: 100vh;
 }
 
 .navbar-toggler {
