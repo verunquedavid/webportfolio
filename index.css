@@ -26,6 +26,11 @@ h2 {
 	color: #45a29e;
 }
 
+.blue-color {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+}
+
 .bg-custom {
 	background-color: #0b0c10;
 }
@@ -36,6 +41,7 @@ h2 {
 
 #fit {
 	max-width: 100vw;
+	font-family: 'Red Hat Mono', monospace;
 }
 
 .height {
@@ -87,14 +93,14 @@ footer span {
 }
 
 .css-font-h4 {
-	font-family: 'Nanum Gothic';
+	font-family: 'Red Hat Mono', monospace;
 	font-weight: lighter;
 	font-size: 1rem;
 }
 
 .aboutme-text,
 .calltoaction {
-	font-family: 'Didact Gothic';
+	font-family: 'Red Hat Mono', monospace;
 }
 
 .aboutme-text {
