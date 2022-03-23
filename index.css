@@ -41,3 +41,31 @@ h2 {
 .navbar-toggler {
 	background-color: #c5c6c7;
 }
+
+.about-me {
+	height: 100vh;
+}
+
+#img {
+	background-image: url(./img/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#hello {
+	color: #66fcf1;
+}
+
+footer {
+	padding: .8rem;
+	text-align: center;
+}
+
+footer span {
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+#color-primary {
+	color: #0b0c10;
+}
