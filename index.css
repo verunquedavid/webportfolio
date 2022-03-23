@@ -4,7 +4,11 @@
 	box-sizing: border-box;
 }
 
-#banner {
+html {
+	scroll-behavior: smooth;
+}
+
+.banner {
 	/* background-color: #0c10b0; */
 	background-color: #1f2833;
 }
@@ -54,6 +58,7 @@ h2 {
 
 #hello {
 	color: #66fcf1;
+	font-size: 5rem;
 }
 
 footer {
@@ -68,4 +73,36 @@ footer span {
 
 #color-primary {
 	color: #0b0c10;
+}
+
+#img-resize {
+	border-radius: 50%;
+	width: 25%;
+	margin-top: 15%;
+	margin-bottom: 2%;
+}
+.css-font-h1 {
+	font-family: 'Nanum Gothic';
+	font-size: 2.5rem;
+}
+
+.css-font-h4 {
+	font-family: 'Nanum Gothic';
+	font-weight: lighter;
+	font-size: 1rem;
+}
+
+.aboutme-text,
+.calltoaction {
+	font-family: 'Didact Gothic';
+}
+
+.aboutme-text {
+	font-size: 1.2rem;
+}
+
+textarea {
+	resize: none;
+	height: 100px;
+	width: 350px;
 }
