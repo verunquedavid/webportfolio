@@ -28,7 +28,6 @@ h2 {
 
 .blue-color {
 	font-family: 'Titillium Web', sans-serif;
-	font-weight: bold;
 }
 
 .bg-custom {
@@ -64,7 +63,6 @@ h2 {
 
 #hello {
 	color: #66fcf1;
-	font-size: 300%;
 }
 
 footer {
@@ -89,13 +87,11 @@ footer span {
 }
 .css-font-h1 {
 	font-family: 'Nanum Gothic';
-	font-size: 2.5rem;
 }
 
 .css-font-h4 {
 	font-family: 'Red Hat Mono', monospace;
 	font-weight: lighter;
-	font-size: 1rem;
 }
 
 .aboutme-text,
@@ -105,10 +101,4 @@ footer span {
 
 .aboutme-text {
 	font-size: 1.2rem;
-}
-
-textarea {
-	resize: none;
-	height: 100px;
-	width: 350px;
 }
