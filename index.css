@@ -8,6 +8,13 @@ html {
 	scroll-behavior: smooth;
 }
 
+#logo {
+	display: flex;
+	padding: 0;
+	width: 3rem;
+	height: 3rem;
+}
+
 .banner {
 	/* background-color: #0c10b0; */
 	background-color: #1f2833;
@@ -52,7 +59,12 @@ h2 {
 }
 
 .about-me {
+	padding-top: 10rem;
 	height: 100vh;
+}
+#about {
+	display: flex;
+	justify-content:flex-start;
 }
 
 #img {
@@ -79,6 +91,12 @@ footer span {
 	color: #0b0c10;
 }
 
+#callToAction {
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	color: #66fcf1;
+}
+
 #img-resize {
 	border-radius: 50%;
 	width: 25%;
@@ -96,9 +114,13 @@ footer span {
 
 .aboutme-text,
 .calltoaction {
+
 	font-family: 'Red Hat Mono', monospace;
 }
 
 .aboutme-text {
+	display: flex;
+	align-items: center;
+	
 	font-size: 1.2rem;
 }
